@@ -5,7 +5,7 @@ begin
 	(2, "Writers Tears", 2),
 	(3, "Bushmills", 3);
 
-	insert into dbo.Product(ProductId, TypeId)
+	insert into dbo.[Product](ProductId, TypeId)
 	values ("a92142ad-99db-4c25-9567-180cd0e25a2b", 1),
 	("ac3235a6-8aa6-4b2e-ba26-1efe9c3b36a7",2),
 	("90236dad-e22c-4aec-81bf-f88e6c9cea66",2),
