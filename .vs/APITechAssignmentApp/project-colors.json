@@ -1,0 +1,16 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "3ea4b062-0c83-47fc-a3eb-34933b2ee705": {
+      "ProjectGuid": "3ea4b062-0c83-47fc-a3eb-34933b2ee705",
+      "DisplayName": "APIAssignment",
+      "ColorIndex": 0
+    },
+    "cdb5c56c-e34a-4aeb-89fa-407569d52265": {
+      "ProjectGuid": "cdb5c56c-e34a-4aeb-89fa-407569d52265",
+      "DisplayName": "TechAssignmentDB",
+      "ColorIndex": 1
+    }
+  },
+  "NextColorIndex": 2
+}
