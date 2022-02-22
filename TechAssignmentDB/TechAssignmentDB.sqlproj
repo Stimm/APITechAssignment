@@ -58,11 +58,26 @@
     <Folder Include="Properties" />
     <Folder Include="dbo" />
     <Folder Include="dbo\Tables" />
+    <Folder Include="dbo\StoredProcedures" />
   </ItemGroup>
   <ItemGroup>
     <Build Include="dbo\Tables\Product.sql" />
     <Build Include="dbo\Tables\ProductType.sql" />
     <Build Include="dbo\Tables\Order.sql" />
+    <Build Include="dbo\StoredProcedures\spProductType_GetAll.sql" />
+    <Build Include="dbo\StoredProcedures\spProduct_GetAll.sql" />
+    <Build Include="dbo\StoredProcedures\spOrder_GetAll.sql" />
+    <Build Include="dbo\StoredProcedures\spProduct_Get.sql" />
+    <Build Include="dbo\StoredProcedures\spProductType_Get.sql" />
+    <Build Include="dbo\StoredProcedures\spOrder_Get.sql" />
+    <Build Include="dbo\StoredProcedures\spOrder_Delete.sql" />
+    <Build Include="dbo\StoredProcedures\spProduct_Delete.sql" />
+    <Build Include="dbo\StoredProcedures\spProductType_Delete.sql" />
+    <Build Include="dbo\StoredProcedures\spOrder_Insert.sql" />
+    <Build Include="dbo\StoredProcedures\spProduct_Insert.sql" />
+    <Build Include="dbo\StoredProcedures\spOrder_Update.sql" />
+    <Build Include="dbo\StoredProcedures\spProductType_Update.sql" />
+    <Build Include="dbo\StoredProcedures\spProductType_Insert.sql" />
   </ItemGroup>
   <ItemGroup>
     <RefactorLog Include="TechAssignmentDB.refactorlog" />
