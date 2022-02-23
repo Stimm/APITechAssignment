@@ -1,0 +1,10 @@
+C:\Workspace\APITechAssignment\APITechAssignmentApp\TechAssignmentDB\bin\Debug\TechAssignmentDB.dacpac
+C:\Workspace\APITechAssignment\APITechAssignmentApp\TechAssignmentDB\bin\Debug\TechAssignmentDB.dll
+C:\Workspace\APITechAssignment\APITechAssignmentApp\TechAssignmentDB\bin\Debug\TechAssignmentDB.pdb
+C:\Workspace\APITechAssignment\APITechAssignmentApp\TechAssignmentDB\obj\Debug\TechAssignmentDB.sqlproj.AssemblyReference.cache
+C:\Workspace\APITechAssignment\APITechAssignmentApp\TechAssignmentDB\obj\Debug\TechAssignmentDB.dll
+C:\Workspace\APITechAssignment\APITechAssignmentApp\TechAssignmentDB\obj\Debug\TechAssignmentDB.pdb
+C:\Workspace\APITechAssignment\APITechAssignmentApp\TechAssignmentDB\obj\Debug\Model.xml
+C:\Workspace\APITechAssignment\APITechAssignmentApp\TechAssignmentDB\obj\Debug\refactor.xml
+C:\Workspace\APITechAssignment\APITechAssignmentApp\TechAssignmentDB\obj\Debug\postdeploy.sql
+C:\Workspace\APITechAssignment\APITechAssignmentApp\TechAssignmentDB\obj\Debug\predeploy.sql

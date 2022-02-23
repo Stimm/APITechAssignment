@@ -85,4 +85,7 @@
   <ItemGroup>
     <PostDeploy Include="Script.PostDeployment.sql" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="TechAssignmentDB.publish.xml" />
+  </ItemGroup>
 </Project>
