@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace DataAccess.Models;
 
-internal class OrderModel
+public class OrderModel
 {
     public int OrderId { get; set; }
     public Guid ProductId { get; set; }

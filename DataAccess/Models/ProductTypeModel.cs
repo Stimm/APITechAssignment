@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace DataAccess.Models;
 
-internal class ProductTypeModel
+public class ProductTypeModel
 {
     public int TypeId { get; set; }
     public string Description { get; set; }
