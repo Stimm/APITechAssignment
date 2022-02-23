@@ -1,6 +1,6 @@
 ﻿CREATE PROCEDURE [dbo].[spOrder_GetAll]
 AS
 begin
-	SELECT OrderId, ProductId, TypeId, Description
+	SELECT OrderId, Address
 	from dbo.[Order];
 end

@@ -4,10 +4,10 @@ public static class ProductApi
 {
     public static void ConfigureProductApi(this WebApplication app)
     {
-
         app.MapGet("/Products", GetProducts);
         app.MapGet("/Products/{id}", GetProduct);
         app.MapPost("/Products", InsertProduct);
+        app.MapPut("/Products", UpdateProduct);
         app.MapDelete("/Products", DeleteProduct);
     }
 
@@ -23,7 +23,7 @@ public static class ProductApi
         }
     }
 
-    private static async Task<IResult> GetProduct(int id, IProductData data)
+    private static async Task<IResult> GetProduct(string id, IProductData data)
     {
         try
         {
@@ -50,7 +50,20 @@ public static class ProductApi
         }
     }
 
-    private static async Task<IResult> DeleteProduct(int id, IProductData data)
+    private static async Task<IResult> UpdateProduct(ProductModel model, IProductData data)
+    {
+        try
+        {
+            await data.UpdateProduct(model);
+            return Results.Ok(data);
+        }
+        catch (Exception ex)
+        {
+            return Results.Problem(ex.Message);
+        }
+    }
+
+    private static async Task<IResult> DeleteProduct(string id, IProductData data)
     {
         try
         {

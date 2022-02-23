@@ -1,5 +1,5 @@
 ﻿CREATE PROCEDURE [dbo].[spProductType_Get]
-	@TypeID varchar(60)
+	@TypeID int
 AS
 begin
 	SELECT TypeId, Description, Stock

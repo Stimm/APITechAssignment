@@ -21,7 +21,10 @@ public class OrderData : IOrderData
     }
 
     public Task InsertOrder(OrderModel order) =>
-        _db.SaveData("dbo.spOrder_Insert", new { order.ProductId, order.TypeId, order.Description });
+        _db.SaveData("dbo.spOrder_Insert", new { order.Address });
+
+    public Task UpdateOrder(OrderModel order) =>
+        _db.SaveData("dbo.spOrder_Update", order);
 
     public Task DeleteOrder(int orderId) =>
         _db.SaveData("dbo.spOrder_Delete", new { OrderId = orderId });

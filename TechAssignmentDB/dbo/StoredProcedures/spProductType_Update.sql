@@ -1,11 +1,10 @@
 ﻿CREATE PROCEDURE [dbo].[spProductType_Update]
-	@OrderId int,
-	@ProductId varchar(60),
-	@TypeId varchar(60),
-	@Description varchar(60)
+	@TypeId int,
+	@Description varchar(60),
+	@Stock int
 AS
 begin
-	UPDATE dbo.[Order]
-	set ProductId = @ProductId, TypeId = @TypeId, Description = @Description
-	WHERE OrderId = @OrderId
+	UPDATE dbo.[ProductType]
+	set Description = @Description, Stock = @Stock
+	WHERE TypeId = @TypeId
 end

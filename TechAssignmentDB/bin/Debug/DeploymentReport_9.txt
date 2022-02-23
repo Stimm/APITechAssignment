@@ -1,0 +1,42 @@
+﻿** Highlights
+     Tables that will be rebuilt
+       [dbo].[ProductType]
+     Clustered indexes that will be dropped
+       None
+     Clustered indexes that will be created
+       None
+     Possible data issues
+       The type for column TypeId in table [dbo].[Product] is currently  VARCHAR (50) NOT NULL but is being changed to  INT NOT
+         NULL. Data loss could occur and deployment may fail if the column contains data that is incompatible with type  INT NOT
+         NULL.
+       The type for column TypeId in table [dbo].[ProductType] is currently  VARCHAR (50) NOT NULL but is being changed to  INT
+         NOT NULL. Data loss could occur and deployment may fail if the column contains data that is incompatible with type  INT
+         NOT NULL.
+
+** User actions
+     Alter
+       [dbo].[Product] (Table)
+       [dbo].[spProduct_Insert] (Procedure)
+       [dbo].[spProduct_Update] (Procedure)
+       [dbo].[spProductType_Delete] (Procedure)
+       [dbo].[spProductType_Get] (Procedure)
+       [dbo].[spProductType_Insert] (Procedure)
+       [dbo].[spProductType_Update] (Procedure)
+       [dbo].[spOrder_Delete] (Procedure)
+     Table rebuild
+       [dbo].[ProductType] (Table)
+
+** Supporting actions
+     Drop
+       [dbo].[FK_Product_ProductType] (Foreign Key)
+     Create
+       [dbo].[FK_Product_ProductType] (Foreign Key)
+     Refresh
+       [dbo].[spProduct_Delete] (Procedure)
+       [dbo].[spProduct_Get] (Procedure)
+       [dbo].[spProduct_GetAll] (Procedure)
+       [dbo].[spProductType_GetAll] (Procedure)
+
+The type for column TypeId in table [dbo].[Product] is currently  VARCHAR (50) NOT NULL but is being changed to  INT NOT NULL. Data loss could occur and deployment may fail if the column contains data that is incompatible with type  INT NOT NULL.
+The type for column TypeId in table [dbo].[ProductType] is currently  VARCHAR (50) NOT NULL but is being changed to  INT NOT NULL. Data loss could occur and deployment may fail if the column contains data that is incompatible with type  INT NOT NULL.
+

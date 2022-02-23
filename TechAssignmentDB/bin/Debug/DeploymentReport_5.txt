@@ -1,0 +1,39 @@
+﻿** Highlights
+     Tables that will be rebuilt
+       None
+     Clustered indexes that will be dropped
+       None
+     Clustered indexes that will be created
+       None
+     Possible data issues
+       The column [dbo].[Order].[Description] is being dropped, data loss could occur.
+       The column [dbo].[Order].[ProductId] is being dropped, data loss could occur.
+       The column [dbo].[Order].[TypeId] is being dropped, data loss could occur.
+       The column [dbo].[Order].[Address] on table [dbo].[Order] must be added, but the column has no default value and does
+         not allow NULL values. If the table contains data, the ALTER script will not work. To avoid this issue you must either:
+         add a default value to the column, mark it as allowing NULL values, or enable the generation of smart-defaults as a
+         deployment option.
+
+** User actions
+     Alter
+       [dbo].[Order] (Table)
+       [dbo].[Product] (Table)
+       [dbo].[spOrder_Get] (Procedure)
+       [dbo].[spOrder_GetAll] (Procedure)
+       [dbo].[spOrder_Insert] (Procedure)
+       [dbo].[spOrder_Update] (Procedure)
+       [dbo].[spProductType_Update] (Procedure)
+
+** Supporting actions
+     Refresh
+       [dbo].[spOrder_Delete] (Procedure)
+       [dbo].[spProduct_Delete] (Procedure)
+       [dbo].[spProduct_Get] (Procedure)
+       [dbo].[spProduct_GetAll] (Procedure)
+       [dbo].[spProduct_Insert] (Procedure)
+
+The column [dbo].[Order].[Description] is being dropped, data loss could occur.
+The column [dbo].[Order].[ProductId] is being dropped, data loss could occur.
+The column [dbo].[Order].[TypeId] is being dropped, data loss could occur.
+The column [dbo].[Order].[Address] on table [dbo].[Order] must be added, but the column has no default value and does not allow NULL values. If the table contains data, the ALTER script will not work. To avoid this issue you must either: add a default value to the column, mark it as allowing NULL values, or enable the generation of smart-defaults as a deployment option.
+

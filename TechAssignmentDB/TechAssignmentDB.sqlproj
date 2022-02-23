@@ -78,6 +78,8 @@
     <Build Include="dbo\StoredProcedures\spOrder_Update.sql" />
     <Build Include="dbo\StoredProcedures\spProductType_Update.sql" />
     <Build Include="dbo\StoredProcedures\spProductType_Insert.sql" />
+    <Build Include="dbo\StoredProcedures\spProduct_Update.sql" />
+    <Build Include="dbo\StoredProcedures\spProduct_GetOrderId.sql" />
   </ItemGroup>
   <ItemGroup>
     <RefactorLog Include="TechAssignmentDB.refactorlog" />

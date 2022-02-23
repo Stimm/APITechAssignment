@@ -1,0 +1,25 @@
+﻿** Highlights
+     Tables that will be rebuilt
+       None
+     Clustered indexes that will be dropped
+       None
+     Clustered indexes that will be created
+       None
+     Possible data issues
+       The type for column OrderId in table [dbo].[Product] is currently  VARCHAR (50) NULL but is being changed to  INT NULL.
+         Data loss could occur and deployment may fail if the column contains data that is incompatible with type  INT NULL.
+
+** User actions
+     Alter
+       [dbo].[Product] (Table)
+       [dbo].[spProduct_Update] (Procedure)
+
+** Supporting actions
+     Refresh
+       [dbo].[spProduct_Delete] (Procedure)
+       [dbo].[spProduct_Get] (Procedure)
+       [dbo].[spProduct_GetAll] (Procedure)
+       [dbo].[spProduct_Insert] (Procedure)
+
+The type for column OrderId in table [dbo].[Product] is currently  VARCHAR (50) NULL but is being changed to  INT NULL. Data loss could occur and deployment may fail if the column contains data that is incompatible with type  INT NULL.
+

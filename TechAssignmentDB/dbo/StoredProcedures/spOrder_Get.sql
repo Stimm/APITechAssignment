@@ -2,7 +2,7 @@
 	@OrderId int
 AS
 begin
-	SELECT OrderId, ProductId, TypeId, Description
+	SELECT OrderId, Address
 	from dbo.[Order]
 	WHERE OrderId = @OrderId;
 end

@@ -9,7 +9,5 @@ namespace DataAccess.Models;
 public class OrderModel
 {
     public int OrderId { get; set; }
-    public string ProductId { get; set; }
-    public int TypeId { get; set; }
-    public string Description { get; set; }
+    public string Address { get; set; }
 }

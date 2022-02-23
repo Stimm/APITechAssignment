@@ -1,5 +1,5 @@
 ﻿CREATE PROCEDURE [dbo].[spProductType_Delete]
-	@TypeID varchar(60)
+	@TypeID int
 AS
 begin
 	DELETE

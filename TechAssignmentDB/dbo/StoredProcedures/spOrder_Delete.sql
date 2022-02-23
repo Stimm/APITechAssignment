@@ -1,5 +1,5 @@
 ﻿CREATE PROCEDURE [dbo].[spOrder_Delete]
-	@OrderId varchar(60)
+	@OrderId int
 AS
 begin
 	DELETE

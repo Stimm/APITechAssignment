@@ -10,6 +10,7 @@ namespace DataAccess.Data
         Task DeleteOrder(int orderId);
         Task<OrderModel?> GetOrder(int orderId);
         Task<IEnumerable<OrderModel>> GetOrders();
+        Task UpdateOrder(OrderModel order);
         Task InsertOrder(OrderModel order);
     }
 }

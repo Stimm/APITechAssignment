@@ -1,5 +1,5 @@
 ﻿CREATE PROCEDURE [dbo].[spProductType_Insert]
-	@TypeId varchar(60),
+	@TypeId int,
 	@Description varchar(60),
 	@Stock int
 AS
