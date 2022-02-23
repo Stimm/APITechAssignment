@@ -8,6 +8,6 @@ namespace DataAccess.Models;
 
 public class ProductModel
 {
-    public Guid ProductId { get; set; }
+    public string ProductId { get; set; }
     public int TypeId { get; set; }
 }

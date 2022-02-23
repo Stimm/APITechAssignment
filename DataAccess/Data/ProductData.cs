@@ -12,19 +12,19 @@ public class ProductData : IProductData
     }
 
     public Task<IEnumerable<ProductModel>> GetProducts() =>
-        _db.LoadData<ProductModel, dynamic>("spProduct_GetAll.sql", new { });
+        _db.LoadData<ProductModel, dynamic>("dbo.spProduct_GetAll", new { });
 
     public async Task<ProductModel?> GetProduct(int productId)
     {
-        var results = await _db.LoadData<ProductModel, dynamic>("spProduct_GetAll.sql", new { ProductId = productId });
+        var results = await _db.LoadData<ProductModel, dynamic>("dbo.spProduct_Get", new { ProductId = productId });
         return results.FirstOrDefault();
     }
 
     public Task InsertProduct(ProductModel product) =>
-        _db.SaveData("spOrder_Insert.sql", new { product.ProductId, product.TypeId });
+        _db.SaveData("dbo.spProduct_Insert", new { product.ProductId, product.TypeId });
 
     public Task DeleteProduct(int productId) =>
-        _db.SaveData("spProduct_Delete.sql", new { ProductId = productId });
+        _db.SaveData("dbo.spProduct_Delete", new { ProductId = productId });
 
 
 }

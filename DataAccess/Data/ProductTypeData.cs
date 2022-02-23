@@ -14,14 +14,14 @@ public class ProductTypeData : IProductTypeData
     }
 
     public Task<IEnumerable<ProductTypeModel>> GetProductTypes() =>
-        _db.LoadData<ProductTypeModel, dynamic>("spProductType_GetAll.sql", new { });
+        _db.LoadData<ProductTypeModel, dynamic>("dbo.spProductType_GetAll", new { });
 
     public async Task<ProductTypeModel?> GetProductType(int typeId)
     {
-        var results = await _db.LoadData<ProductTypeModel, dynamic>("spProductType_GetAll.sql", new { TypeId = typeId });
+        var results = await _db.LoadData<ProductTypeModel, dynamic>("dbo.spProductType_Get", new { TypeId = typeId });
         return results.FirstOrDefault();
     }
 
     public Task UpdateProductType(ProductTypeModel productType) =>
-        _db.SaveData("spProductType_Update.sql", productType);
+        _db.SaveData("dbo.spProductType_Update", productType);
 }

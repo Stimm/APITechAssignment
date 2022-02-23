@@ -1,0 +1,12 @@
+C:\Workspace\APITechAssignment\APITechAssignmentApp\DataAccess\bin\Debug\net6.0\DataAccess.deps.json
+C:\Workspace\APITechAssignment\APITechAssignmentApp\DataAccess\bin\Debug\net6.0\DataAccess.dll
+C:\Workspace\APITechAssignment\APITechAssignmentApp\DataAccess\bin\Debug\net6.0\ref\DataAccess.dll
+C:\Workspace\APITechAssignment\APITechAssignmentApp\DataAccess\bin\Debug\net6.0\DataAccess.pdb
+C:\Workspace\APITechAssignment\APITechAssignmentApp\DataAccess\obj\Debug\net6.0\DataAccess.csproj.AssemblyReference.cache
+C:\Workspace\APITechAssignment\APITechAssignmentApp\DataAccess\obj\Debug\net6.0\DataAccess.GeneratedMSBuildEditorConfig.editorconfig
+C:\Workspace\APITechAssignment\APITechAssignmentApp\DataAccess\obj\Debug\net6.0\DataAccess.AssemblyInfoInputs.cache
+C:\Workspace\APITechAssignment\APITechAssignmentApp\DataAccess\obj\Debug\net6.0\DataAccess.AssemblyInfo.cs
+C:\Workspace\APITechAssignment\APITechAssignmentApp\DataAccess\obj\Debug\net6.0\DataAccess.csproj.CoreCompileInputs.cache
+C:\Workspace\APITechAssignment\APITechAssignmentApp\DataAccess\obj\Debug\net6.0\DataAccess.dll
+C:\Workspace\APITechAssignment\APITechAssignmentApp\DataAccess\obj\Debug\net6.0\ref\DataAccess.dll
+C:\Workspace\APITechAssignment\APITechAssignmentApp\DataAccess\obj\Debug\net6.0\DataAccess.pdb
