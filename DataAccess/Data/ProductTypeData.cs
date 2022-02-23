@@ -3,7 +3,7 @@ using DataAccess.Models;
 
 namespace DataAccess.Data;
 
-public class ProductTypeData
+public class ProductTypeData : IProductTypeData
 {
 
     public ISqlDataAccess _db;

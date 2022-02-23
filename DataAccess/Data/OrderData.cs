@@ -1,7 +1,7 @@
 ﻿using DataAccess.DbAccess;
 using DataAccess.Models;
 namespace DataAccess.Data;
-public class OrderData
+public class OrderData : IOrderData
 {
 
     public ISqlDataAccess _db { get; }

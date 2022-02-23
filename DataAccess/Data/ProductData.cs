@@ -1,7 +1,7 @@
 ﻿using DataAccess.DbAccess;
 using DataAccess.Models;
 namespace DataAccess.Data;
-public class ProductData
+public class ProductData : IProductData
 {
 
     public ISqlDataAccess _db;
